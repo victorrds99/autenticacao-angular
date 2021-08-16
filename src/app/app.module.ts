@@ -3,14 +3,28 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { LancamentosComponent } from './componentes/lancamentos/lancamentos.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { TipoPipe } from './filtros/tipo.pipe';
+import { DataPipe } from './filtros/data.pipe';
+import { HoraPipe } from './filtros/hora.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    LancamentosComponent,
+    TipoPipe,
+    DataPipe,
+    HoraPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
