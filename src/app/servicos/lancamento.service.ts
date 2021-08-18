@@ -74,10 +74,7 @@ export class LancamentoService {
 
     
     //doc.save('lancamento.pdf');
-    
-
-
-    const nome = window.prompt('digite um nome para o documento: ');
+        const nome = window.prompt('digite um nome para o documento: ');
     doc.save(nome?.toString() + data.toLocaleDateString('pt-BR') + '.pdf');;
   }
 }
