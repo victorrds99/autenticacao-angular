@@ -1,0 +1,17 @@
+[33mcommit 1906b066b1d4300849ea1a89f302f78c70d3aa7a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Rodrigues De Souza <vrodriguess@indracompany.com>
+Date:   Tue Aug 17 16:24:12 2021 -0300
+
+    Adicionamos o botão Hora exata, e colocamos um relogio em tempo em real.
+
+[33mcommit 9a9706b4de63a0e97006beff088805c3c10eaeb4[m
+Author: Rodrigues De Souza <vrodriguess@indracompany.com>
+Date:   Mon Aug 16 17:58:40 2021 -0300
+
+    Arquivos do projeto inicial - 70% pronto.
+
+[33mcommit b78b8a6208421122a3b58a9bc38e386c8405ae8a[m
+Author: Rodrigues De Souza <vrodriguess@indracompany.com>
+Date:   Thu Aug 12 15:12:43 2021 -0300
+
+    initial commit
